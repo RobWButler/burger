@@ -5,3 +5,24 @@ body{
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
+ul{
+    list-style-position: inside;
+    list-style-image: url("../img/icons8-hamburger-filled-24.png")
+}
+
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgb(155, 155, 155);
+    border: solid darkslategray 1pt;
+    padding-top:5pt;
+    padding-bottom:5pt;
+    padding-left:5pt;
+    margin-left: -30pt;
+    text-shadow: -.5pt .5pt 1pt darkslategray;
+}
+
+.change-sleep{
+    position: relative;
+    margin: 5pt;
+}
