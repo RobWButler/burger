@@ -1,28 +1,50 @@
 body{
-    background-color: orange;
+    background: repeating-linear-gradient(
+        -45deg,
+        orange,
+        orange 5px,
+        rgb(218, 141, 0) 5px,
+        rgb(218, 141, 0) 10px) fixed;
 }
 
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+h3{
+    background-color: rgba(255, 188, 64, 0.5);
+    border-radius: 5px
+}
+
+.form-group{
+    width:50vh;
+    margin: 0 auto 8pt;
+}
+
+.form-control, .form-control:enabled{
+    background: rgba(255, 255, 255, 0.5);
+    resize: none;
+}
+
 ul{
-    list-style-position: inside;
-    list-style-image: url("../img/icons8-hamburger-filled-24.png")
+    list-style-type:none;
+    border: solid darkslategray 3pt;
+    border-radius: 5px;
 }
 
 li{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color:rgb(155, 155, 155);
+    background: url("../img/icons8-hamburger-filled-24.png") no-repeat left 12pt;
+    background-color:rgb(155, 155, 155, 0.8);
     border: solid darkslategray 1pt;
     padding-top:5pt;
     padding-bottom:5pt;
-    padding-left:5pt;
+    padding-left:2rem;
     margin-left: -30pt;
     text-shadow: -.5pt .5pt 1pt darkslategray;
 }
 
-.change-sleep{
+.change-eat{
     position: relative;
     margin: 5pt;
 }

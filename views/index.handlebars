@@ -6,7 +6,7 @@
     
     <div class="row">
         <div id="toeat" class="col-md-5">
-            <h3>Boigas to Eat</h3>
+            <h3 class="text-center">Boigas to Eat</h3>
             <ul>
             {{#each burgers}}
                 {{#unless devoured}}
@@ -17,7 +17,7 @@
         </div>
         <div id="spacer" class="col-md-2"></div>
         <div id="eaten" class="col-md-5">
-            <h3>Boigas that was Et</h3>
+            <h3 class="text-center">Boigas that was Et</h3>
             <ul>
             {{#each burgers}}
                 {{#if devoured}}
@@ -27,10 +27,11 @@
             </ul>
         </div>
     </div>
-
-    <div class="form-group">
-        <label for="burgername">Put in a burger name!</label>
-        <textarea class="form-control" id="burger_name" rows="2"></textarea>
+    <div class="text-center">
+        <div class="form-group">
+            <label for="burgername"><b>Put in a burger name!</b></label>
+            <textarea class="form-control" id="burger-name" rows="2"></textarea>
+        </div>
+        <button class="btn btn-dark" id="addburger">Submit</button>
     </div>
-    <button class="btn btn-primary">Submit</button>
 </div>
